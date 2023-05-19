@@ -1,0 +1,12 @@
+<div class="sum-signals-container">
+    <div> SUM WITH SIGNALS</div>
+    <div>
+        <input [ngModel]="value1()" (change)="updateValue1($event)"/>
+    </div>
+    <div>
+        <input [ngModel]="value2()" (change)="updateValue2($event)"/>
+    </div>
+    <div>
+        Sum is {{sum()}}
+    </div>
+</div>
